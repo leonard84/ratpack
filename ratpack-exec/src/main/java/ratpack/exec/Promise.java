@@ -55,6 +55,7 @@ import static ratpack.func.Action.ignoreArg;
  * @param <T> the type of promised value
  */
 @SuppressWarnings("JavadocReference")
+@NonBlocking
 public interface Promise<T> {
 
   /**
